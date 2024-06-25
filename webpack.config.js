@@ -29,7 +29,7 @@ module.exports = {
     resolve: {
         extensions: ['.js'],
     },
-    mode: 'development',
+    mode: 'production',
     devtool: 'source-map',
     optimization: {
         minimize: true,
