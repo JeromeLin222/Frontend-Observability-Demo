@@ -18,6 +18,10 @@ app.get('/console', (req, res) => {
     res.render('console');
 })
 
+app.get('/event', (req, res) => {
+    res.render('event')
+})
+
 app.get('/error', (req, res) => {
     res.render('error');
 })
