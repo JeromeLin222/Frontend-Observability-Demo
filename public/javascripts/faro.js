@@ -6,9 +6,9 @@ import { setupTracingInstrumentation } from './tracing'
 import { sendCustomEvents } from './event'
 
 var faro = initializeFaro({
-  url: 'https://faro-collector-prod-au-southeast-0.grafana.net/collect/27af9f41ad3a38f92b3c07ceb9085ea0',
+  url: process.env.FARO_COLLECTOR_URL,
   app: {
-    name: 'Faro Demo',
+    name: process.env.APP_NAME,
     version: '1.0.0',
     environment: 'production'
   },
