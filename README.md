@@ -54,6 +54,7 @@ This section demonstrates generating traces for API calls:
 
 - Node.js v18.15.0
 - npm (included with Node.js installation)
+- [Grafana Cloud](https://grafana.com/auth/sign-up/create-user) account
 
 Verify the installation of Node.js and npm:
 
